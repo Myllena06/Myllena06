@@ -50,7 +50,64 @@
 <span>🍃</span>
 
 <hr>
+body {
+ font-family: pacifico, sans-serif;
+ background-color: pink;
+}
+table {
+ border-collapse: collapse;
+ margin: 20px;
+  background: ivory;
+  tr:nth-child(even) {
+  background: palevioletred;
+ table.comBordaSimples {
+    border-collapse: collapse; /* CSS2 */
+    background: #FFFFF0;
+}
+ 
+table.comBordaSimples td {
+    border: 1px solid black;
+}
+ 
+table.comBordaSimples th {
+    border: 1px solid black;
+    background: #F0FFF0;
+}
+}
 
+
+}
+th, td {
+ border: 1px solid #ddd;
+ padding: 10px;
+}
+.container img {
+ width: 40px;
+}
+button {
+ padding: 10px;
+ background-color: #4CAF50;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+button:hover {
+ background-color: #3e8e41;
+}
+a {
+ text-decoration: none;
+ color: #337ab7;
+}
+a:hover {
+ color: #23527c;
+}
+
+}
+tr:nth-child(even) {
+  background:lightgray;
+}
+```
 
 body {
  font-family: pacifico, sans-serif;
@@ -110,6 +167,8 @@ tr:nth-child(even) {
   background:lightgray;
 }
 ```
+
+
 
 
 
